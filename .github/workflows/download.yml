@@ -11,7 +11,7 @@ jobs:
       id: cmdline
       run: |
         pwd
-        wget https://cn.download.nvidia.cn/XFree86/Linux-x86_64/340.98/NVIDIA-Linux-x86_64-340.108.run
+        wget https://cn.download.nvidia.cn/XFree86/Linux-x86_64/340.98/NVIDIA-Linux-x86_64-340.98.run
         ls -al
     - name: Upload
       uses: ncipollo/release-action@main
